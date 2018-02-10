@@ -96,9 +96,7 @@ Class User
             break;
         }
         // Links for all users
-        echo('<li><a href="http://tinyurl.com/tchguide/" target="blank">Guide</a></li>');
         echo('<li' . $mapSelected . '><a href="/Map">Map</a></li>');
-        echo ('<li><a href="https://discord.gg/WPXYMzU" target="blank">Discord</a></li>');
         // Links for Admins
 		if(isset($_SESSION['ID']) && $this->getGroup($_SESSION['ID']) > '1300')
 		{
