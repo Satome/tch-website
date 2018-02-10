@@ -1,0 +1,114 @@
+﻿  /* CSS layout */
+
+#character_container {
+	min-width: 600px;
+	width: 1100px;
+	height: 720px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-shadow: 0px 4px 5px #9A9A9A;
+    border-radius: 25px;
+    background: #e1e2e0;
+}
+
+#left_col {
+	width: 260px;
+	height: 720px;
+	float: left;
+    background: #cccccc;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.char_info {
+	height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 40px;
+    background: #cccccc;
+}
+
+.char_info a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#char_image, #char_image img {
+	height: 360px;
+	width: 260px;
+	border-radius: 25px 0px 0px 0px;
+    background: no-repeat;
+    background-size: 260px 360px;
+}
+
+#char_perks, #char_attribute {
+	text-align: center;
+    margin-top: 10px;
+}
+
+#char_perks img, #char_attribute img {
+	width: 64px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 5px;
+}
+
+#char_perks a, #char_attribute a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.page_content {
+	padding: 10px;
+	margin-left: 260px;
+	width: auto;
+	height: 100%;
+    display: none;
+    max-height: 720px;
+}
+
+.tablink_active {
+    background: #e1e2e0;
+}
+textarea {
+    width: 100%;
+    height: 92%;
+    max-height: 720px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: none;
+    border-style: none;
+    border-color: Transparent;
+    overflow: auto;
+    outline: none;
+    resize: none;
+    font: inherit;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.button { 
+    padding: 5px; 
+    width: 200px; 
+    font: 100% arial; 
+    border: 1px solid #E5E5DB;  
+    background: #cccccc;
+    border-radius: 7px 7px 7px 7px;
+}
+
+#avatarButton {
+    padding: 5px; 
+    width: 260px; 
+    font: 100% arial; 
+    border: 1px solid #E5E5DB;  
+    background: #cccccc;
+    border-radius: 25px 0px 0px 0px;
+}
+
+#avatarButton:hover {
+}
